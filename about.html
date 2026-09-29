@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Fine Lines Architecture | Interior Design & Architecture Blog</title>
+  <meta name="description" content="Learn about Fine Lines Architecture—our editorial mission, team, values, and commitment to independent design journalism.">
+  <meta name="author" content="Fine Lines Editorial Team">
+  <link rel="canonical" href="https://finelinesarchitecture.com/about.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="About — Fine Lines Architecture">
+  <meta property="og:description" content="Independent editorial publication for interior design and architecture. Meet our team and read our editorial policy.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://finelinesarchitecture.com/about.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&h=630&fit=crop">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+  <style>
+    /* ---------- RESET & BASE ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background-color: #fbfaf8;
+      color: #1e1e1e;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+    img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    button, input {
+      font-family: inherit;
+    }
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    /* ---------- TYPOGRAPHY ---------- */
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 600;
+      line-height: 1.2;
+      color: #1e1e1e;
+    }
+    h1 {
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      letter-spacing: -0.02em;
+    }
+    h2 {
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      letter-spacing: -0.01em;
+      margin-bottom: 1.5rem;
+    }
+    h3 {
+      font-size: 1.35rem;
+      margin-bottom: 0.75rem;
+    }
+    .meta {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #6b6b6b;
+      font-weight: 500;
+    }
+    /* ---------- HEADER (same as home) ---------- */
+    .blog-header {
+      border-bottom: 1px solid #e0dbd4;
+      background: #fbfaf8;
+      padding: 18px 0;
+    }
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo-mark {
+      width: 36px;
+      height: 36px;
+      background: #1e1e1e;
+      color: #fbfaf8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 1;
+      border-radius: 2px;
+      letter-spacing: -0.02em;
+    }
+    .logo-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: #1e1e1e;
+    }
+    .logo-text span {
+      font-weight: 400;
+      font-style: italic;
+      color: #7a6a5a;
+    }
+    .main-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 18px;
+      align-items: center;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+    .main-nav a {
+      color: #3d3d3d;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 2px;
+      transition: border-color 0.15s;
+    }
+    .main-nav a:hover,
+    .main-nav a.active {
+      border-bottom-color: #b09b8b;
+      color: #1e1e1e;
+    }
+    .search-wrapper {
+      display: flex;
+      align-items: center;
+      background: #f0ede9;
+      border-radius: 30px;
+      padding: 4px 6px 4px 14px;
+      border: 1px solid #e0dbd4;
+    }
+    .search-wrapper input {
+      border: none;
+      background: transparent;
+      padding: 6px 4px;
+      font-size: 0.9rem;
+      outline: none;
+      width: 180px;
+    }
+    .search-wrapper button {
+      background: #1e1e1e;
+      border: none;
+      color: #fbfaf8;
+      width: 34px;
+      height: 34px;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s;
+    }
+    .search-wrapper button:hover {
+      background: #3d3d3d;
+    }
+    /* ---------- PAGE SPECIFIC ---------- */
+    .page-hero {
+      padding: 50px 0 30px;
+      border-bottom: 1px solid #e0dbd4;
+      margin-bottom: 40px;
+    }
+    .page-hero h1 {
+      font-size: clamp(2.2rem, 5vw, 3.2rem);
+      margin-bottom: 12px;
+    }
+    .page-hero .subhead {
+      font-size: 1.15rem;
+      color: #4f4f4f;
+      max-width: 75ch;
+      line-height: 1.6;
+    }
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 50px;
+      padding: 20px 0 60px;
+    }
+    .about-content h2 {
+      margin-top: 40px;
+    }
+    .about-content h2:first-of-type {
+      margin-top: 0;
+    }
+    .about-content p {
+      margin-bottom: 1.25rem;
+      color: #3d3d3d;
+      font-size: 1.02rem;
+    }
+    .about-content ul {
+      margin: 0 0 1.5rem 1.5rem;
+      color: #3d3d3d;
+    }
+    .about-content li {
+      margin-bottom: 0.5rem;
+    }
+    .values-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin: 30px 0;
+    }
+    .value-card {
+      background: #ffffff;
+      border: 1px solid #ece8e2;
+      border-radius: 6px;
+      padding: 24px;
+    }
+    .value-card h3 {
+      font-size: 1.15rem;
+      margin-bottom: 8px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+    }
+    .value-card p {
+      font-size: 0.92rem;
+      color: #5a5a5a;
+      margin: 0;
+    }
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+      margin: 30px 0 20px;
+    }
+    .team-member {
+      background: #ffffff;
+      border: 1px solid #ece8e2;
+      border-radius: 6px;
+      padding: 28px 20px 24px;
+      text-align: center;
+      transition: box-shadow 0.2s;
+    }
+    .team-member:hover {
+      box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+    }
+    .team-avatar {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 16px;
+      background: #d9d2c9;
+    }
+    .team-member h3 {
+      font-size: 1.2rem;
+      margin-bottom: 4px;
+    }
+    .team-member .role {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #7a6a5a;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+    .team-member p {
+      font-size: 0.88rem;
+      color: #5a5a5a;
+      margin: 0;
+    }
+    /* sidebar (reuse) */
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    .sidebar-widget {
+      background: #ffffff;
+      border: 1px solid #ece8e2;
+      border-radius: 6px;
+      padding: 24px;
+    }
+    .sidebar-widget h3 {
+      font-size: 1.2rem;
+      margin-bottom: 18px;
+      border-bottom: 1px solid #ece8e2;
+      padding-bottom: 12px;
+      font-family: 'Playfair Display', serif;
+    }
+    .newsletter-sidebar input {
+      width: 100%;
+      padding: 12px 14px;
+      border: 1px solid #d9d2c9;
+      border-radius: 4px;
+      margin-bottom: 12px;
+      font-size: 0.9rem;
+      background: #fbfaf8;
+    }
+    .newsletter-sidebar button {
+      width: 100%;
+      background: #1e1e1e;
+      color: #fbfaf8;
+      border: none;
+      padding: 12px;
+      border-radius: 4px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .newsletter-sidebar button:hover {
+      background: #3d3d3d;
+    }
+    /* ---------- FOOTER ---------- */
+    .blog-footer {
+      background: #1e1e1e;
+      color: #cbc6be;
+      padding: 48px 0 24px;
+      margin-top: 40px;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px;
+    }
+    .footer-grid h4 {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #a89f94;
+      margin-bottom: 16px;
+      font-weight: 600;
+    }
+    .footer-grid p, .footer-grid li {
+      font-size: 0.85rem;
+      line-height: 1.8;
+      color: #b5aea4;
+    }
+    .footer-grid ul {
+      list-style: none;
+    }
+    .footer-grid a:hover {
+      color: #fbfaf8;
+    }
+    .footer-bottom {
+      border-top: 1px solid #3a3a3a;
+      margin-top: 40px;
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 0.8rem;
+      color: #8a8a8a;
+    }
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 1024px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      .sidebar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+      }
+      .team-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media (max-width: 768px) {
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .main-nav {
+        font-size: 0.8rem;
+        gap: 4px 14px;
+      }
+      .search-wrapper input {
+        width: 130px;
+      }
+      .values-grid {
+        grid-template-columns: 1fr;
+      }
+      .team-grid {
+        grid-template-columns: 1fr;
+      }
+      .sidebar {
+        grid-template-columns: 1fr;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+      .page-hero {
+        padding: 30px 0 20px;
+      }
+    }
+    @media (max-width: 480px) {
+      .container {
+        padding: 0 16px;
+      }
+      .logo-text {
+        font-size: 1.3rem;
+      }
+    }
+    .hidden {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER (same as home) -->
+  <header class="blog-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Fine Lines Architecture home">
+        <div class="logo-mark" aria-hidden="true">F</div>
+        <div class="logo-text">Fine Lines <span>Architecture</span></div>
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="terms.html">Terms Of Privacy</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="cookies.html">Cookies Policy</a></li>
+        <li><a href="disclaimer.html">Disclaimer</a></li>
+        <li><a href="categories.html">Categories</a></li>
+      </nav>
+      <div class="search-wrapper">
+        <input type="text" id="searchInput" placeholder="Search articles…" aria-label="Search articles">
+        <button id="searchBtn" aria-label="Search">⌕</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="container">
+      <h1>About Fine Lines Architecture</h1>
+      <p class="subhead">Independent, in-depth journalism for the design community—where craft, material intelligence, and spatial thinking meet.</p>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT: ABOUT + SIDEBAR -->
+  <div class="container about-grid">
+    <main class="about-content">
+      <!-- MISSION -->
+      <h2>Our Mission</h2>
+      <p>Fine Lines Architecture exists to elevate the conversation around interior design and architecture. We publish original, carefully researched articles that go beyond trends and surface aesthetics. Our goal is to provide professionals and enthusiasts with the knowledge, context, and inspiration needed to create spaces that are both beautiful and enduring.</p>
+      <p>We believe that good design is not a luxury—it is a fundamental part of how we live, work, and connect. By exploring the "why" behind the "what," we help our readers make informed decisions and appreciate the built environment on a deeper level.</p>
+
+      <!-- VALUES -->
+      <h2>What We Stand For</h2>
+      <div class="values-grid">
+        <div class="value-card">
+          <h3>Editorial Independence</h3>
+          <p>We are not sponsored by brands or manufacturers. Our recommendations are based on merit, research, and real-world experience.</p>
+        </div>
+        <div class="value-card">
+          <h3>Material Honesty</h3>
+          <p>We champion authenticity—in materials, in construction, and in design thinking. We celebrate the honest expression of structure and texture.</p>
+        </div>
+        <div class="value-card">
+          <h3>Practical Intelligence</h3>
+          <p>We bridge the gap between theory and practice. Our guides are actionable, grounded in real projects, and written for people who build and live in spaces.</p>
+        </div>
+        <div class="value-card">
+          <h3>Sustainability First</h3>
+          <p>We prioritize climate-responsive design, low-impact materials, and long-life thinking. Sustainability is not a section—it's a lens.</p>
+        </div>
+        <div class="value-card">
+          <h3>Inclusivity</h3>
+          <p>Great design belongs to everyone. We feature a diverse range of voices, projects, and perspectives from around the world.</p>
+        </div>
+        <div class="value-card">
+          <h3>Craft & Detail</h3>
+          <p>We sweat the small stuff—joinery, transitions, light quality, proportion. The fine lines are what make a space sing.</p>
+        </div>
+      </div>
+
+      <!-- TEAM -->
+      <h2>Meet the Team</h2>
+      <div class="team-grid">
+        <div class="team-member">
+          <img class="team-avatar" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&crop=face" alt="Portrait of Elena Marchetti, Editor-in-Chief">
+          <h3>Elena Marchetti</h3>
+          <div class="role">Editor-in-Chief</div>
+          <p>Architect and design writer with 15+ years in residential and cultural projects. Leads editorial vision and long-form features.</p>
+        </div>
+        <div class="team-member">
+          <img class="team-avatar" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face" alt="Portrait of Marco Rivera, Senior Architecture Editor">
+          <h3>Marco Rivera</h3>
+          <div class="role">Senior Architecture Editor</div>
+          <p>Practicing architect and critic. Covers regional modernism, adaptive reuse, and the intersection of climate and form.</p>
+        </div>
+        <div class="team-member">
+          <img class="team-avatar" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop&crop=face" alt="Portrait of Priya Nair, Materials & Interiors Editor">
+          <h3>Priya Nair</h3>
+          <div class="role">Materials & Interiors Editor</div>
+          <p>Material scientist turned design journalist. Specializes in stone, timber, textiles, and sustainable specification.</p>
+        </div>
+        <div class="team-member">
+          <img class="team-avatar" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face" alt="Portrait of James Chen, Lighting & Technology Editor">
+          <h3>James Chen</h3>
+          <div class="role">Lighting & Technology Editor</div>
+          <p>Lighting designer and educator. Explores layered lighting, circadian design, and the human experience of light.</p>
+        </div>
+        <div class="team-member">
+          <img class="team-avatar" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop&crop=face" alt="Portrait of Sofia Lindqvist, Managing Editor">
+          <h3>Sofia Lindqvist</h3>
+          <div class="role">Managing Editor</div>
+          <p>Oversees day-to-day operations, fact-checking, and contributor coordination. Keeps the editorial engine running smoothly.</p>
+        </div>
+        <div class="team-member">
+          <img class="team-avatar" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop&crop=face" alt="Portrait of David Okonkwo, Contributing Editor">
+          <h3>David Okonkwo</h3>
+          <div class="role">Contributing Editor</div>
+          <p>Urbanist and writer. Covers housing, public space, and the social dimensions of architecture.</p>
+        </div>
+      </div>
+
+      <!-- EDITORIAL POLICY -->
+      <h2>Editorial Policy</h2>
+      <p>Fine Lines Architecture is committed to transparency, accuracy, and integrity. Our editorial team operates independently of advertising and sponsorship. Here’s how we work:</p>
+      <ul>
+        <li><strong>Original reporting:</strong> Every article is written by our team or vetted contributors. We do not publish AI-generated content without human oversight and disclosure.</li>
+        <li><strong>Fact-checking:</strong> Technical claims, product specifications, and historical references are verified with primary sources or industry experts.</li>
+        <li><strong>No pay-to-play:</strong> We do not accept payment for editorial coverage. Sponsored content, when it appears, is clearly labeled.</li>
+        <li><strong>Corrections:</strong> We correct errors promptly and transparently. Contact us at <a href="mailto:corrections@finelinesarchitecture.com" style="border-bottom:1px solid #d9d2c9;">corrections@finelinesarchitecture.com</a>.</li>
+        <li><strong>Diversity of voice:</strong> We actively seek contributors from underrepresented groups in design and media.</li>
+      </ul>
+
+      <!-- CONTACT INFO -->
+      <h2>Get in Touch</h2>
+      <p>We welcome story tips, feedback, and partnership inquiries. Reach us at:</p>
+      <ul>
+        <li><strong>Editorial:</strong> <a href="mailto:hello@finelinesarchitecture.com" style="border-bottom:1px solid #d9d2c9;">hello@finelinesarchitecture.com</a></li>
+        <li><strong>Advertising & partnerships:</strong> <a href="mailto:ads@finelinesarchitecture.com" style="border-bottom:1px solid #d9d2c9;">ads@finelinesarchitecture.com</a></li>
+        <li><strong>Press & media:</strong> <a href="mailto:press@finelinesarchitecture.com" style="border-bottom:1px solid #d9d2c9;">press@finelinesarchitecture.com</a></li>
+      </ul>
+      <p style="margin-top: 24px;"><a href="contact.html" style="border-bottom:2px solid #b09b8b; font-weight:600;">→ Visit our full contact page</a></p>
+    </main>
+
+    <!-- SIDEBAR (reused widgets) -->
+    <aside class="sidebar">
+      <!-- About widget / quick facts -->
+      <div class="sidebar-widget">
+        <h3>Fine Lines in Brief</h3>
+        <p style="font-size:0.92rem; color:#3d3d3d; margin-bottom:12px;"><strong>Founded:</strong> 2021</p>
+        <p style="font-size:0.92rem; color:#3d3d3d; margin-bottom:12px;"><strong>Based:</strong> Milan & New York</p>
+        <p style="font-size:0.92rem; color:#3d3d3d; margin-bottom:12px;"><strong>Focus:</strong> Interior design, architecture, materials, lighting, sustainability</p>
+        <p style="font-size:0.92rem; color:#3d3d3d; margin-bottom:0;"><strong>Readership:</strong> 120k+ monthly design professionals and enthusiasts</p>
+      </div>
+
+      <!-- Popular articles widget (consistent with home) -->
+      <div class="sidebar-widget">
+        <h3>Popular Articles</h3>
+        <ul class="popular-list" style="list-style:none;">
+          <li style="padding:14px 0; border-bottom:1px solid #f0ede9; display:flex; gap:14px; align-items:flex-start;">
+            <span style="font-family:'Playfair Display',serif; font-size:1.3rem; color:#b09b8b; font-weight:600; min-width:24px;">01</span>
+            <div>
+              <h4 style="font-family:'Inter',sans-serif; font-size:0.95rem; font-weight:600; margin-bottom:4px; line-height:1.3;">The Art of Quiet Luxury: How to Create a Timeless Interior</h4>
+              <span style="font-size:0.7rem; color:#8a8a8a; text-transform:uppercase; letter-spacing:0.02em;">Interior Design · 8 min</span>
+            </div>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #f0ede9; display:flex; gap:14px; align-items:flex-start;">
+            <span style="font-family:'Playfair Display',serif; font-size:1.3rem; color:#b09b8b; font-weight:600; min-width:24px;">02</span>
+            <div>
+              <h4 style="font-family:'Inter',sans-serif; font-size:0.95rem; font-weight:600; margin-bottom:4px; line-height:1.3;">Passive Design Principles Every Homeowner Should Know</h4>
+              <span style="font-size:0.7rem; color:#8a8a8a; text-transform:uppercase; letter-spacing:0.02em;">Sustainable Design · 10 min</span>
+            </div>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #f0ede9; display:flex; gap:14px; align-items:flex-start;">
+            <span style="font-family:'Playfair Display',serif; font-size:1.3rem; color:#b09b8b; font-weight:600; min-width:24px;">03</span>
+            <div>
+              <h4 style="font-family:'Inter',sans-serif; font-size:0.95rem; font-weight:600; margin-bottom:4px; line-height:1.3;">Choosing Stone Surfaces: Marble, Granite, and Quartzite</h4>
+              <span style="font-size:0.7rem; color:#8a8a8a; text-transform:uppercase; letter-spacing:0.02em;">Materials · 9 min</span>
+            </div>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #f0ede9; display:flex; gap:14px; align-items:flex-start;">
+            <span style="font-family:'Playfair Display',serif; font-size:1.3rem; color:#b09b8b; font-weight:600; min-width:24px;">04</span>
+            <div>
+              <h4 style="font-family:'Inter',sans-serif; font-size:0.95rem; font-weight:600; margin-bottom:4px; line-height:1.3;">Layered Lighting: The Secret to a Comfortable Home</h4>
+              <span style="font-size:0.7rem; color:#8a8a8a; text-transform:uppercase; letter-spacing:0.02em;">Lighting · 7 min</span>
+            </div>
+          </li>
+          <li style="padding:14px 0; display:flex; gap:14px; align-items:flex-start;">
+            <span style="font-family:'Playfair Display',serif; font-size:1.3rem; color:#b09b8b; font-weight:600; min-width:24px;">05</span>
+            <div>
+              <h4 style="font-family:'Inter',sans-serif; font-size:0.95rem; font-weight:600; margin-bottom:4px; line-height:1.3;">Open Plan or Broken Plan? Rethinking Contemporary Layouts</h4>
+              <span style="font-size:0.7rem; color:#8a8a8a; text-transform:uppercase; letter-spacing:0.02em;">Space Planning · 7 min</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Newsletter sidebar -->
+      <div class="sidebar-widget newsletter-sidebar">
+        <h3>Newsletter</h3>
+        <p style="font-size:0.9rem; color:#5a5a5a; margin-bottom:14px;">Get our weekly digest of design intelligence. No spam, ever.</p>
+        <input type="email" placeholder="Your email address" aria-label="Email for newsletter">
+        <button>Subscribe</button>
+      </div>
+    </aside>
+  </div>
+
+  <!-- FOOTER (same as home) -->
+  <footer class="blog-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Fine Lines Architecture</h4>
+          <p>An independent editorial publication about interior design, architecture, and the built environment. We publish original, in-depth content for professionals and enthusiasts.</p>
+        </div>
+        <div>
+          <h4>Sections</h4>
+          <ul>
+            <li><a href="#">Interior Design</a></li>
+            <li><a href="#">Architecture</a></li>
+            <li><a href="#">Home Design</a></li>
+            <li><a href="#">Materials</a></li>
+            <li><a href="#">Lighting</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>About</h4>
+          <ul>
+            <li><a href="about.html">Our Team</a></li>
+            <li><a href="about.html">Editorial Policy</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Advertise</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+            <li><a href="cookies.html">Cookie Policy</a></li>
+            <li><a href="#">Accessibility</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Fine Lines Architecture. All rights reserved.</span>
+        <span>Made with care for the design community.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT (minimal) -->
+  <script>
+    (function() {
+      // ---------- NEWSLETTER (dummy) ----------
+      const newsletterBtn = document.querySelector('.newsletter-sidebar button');
+      if (newsletterBtn) {
+        newsletterBtn.addEventListener('click', function() {
+          const input = this.previousElementSibling;
+          if (input && input.value.trim()) {
+            alert('Thank you for subscribing to Fine Lines Architecture.');
+            input.value = '';
+          } else {
+            alert('Please enter a valid email address.');
+          }
+        });
+      }
+
+      // ---------- SEARCH (dummy redirect to home) ----------
+      const searchBtn = document.getElementById('searchBtn');
+      const searchInput = document.getElementById('searchInput');
+      if (searchBtn) {
+        searchBtn.addEventListener('click', function() {
+          if (searchInput.value.trim()) {
+            window.location.href = 'index.html?search=' + encodeURIComponent(searchInput.value.trim());
+          }
+        });
+      }
+      if (searchInput) {
+        searchInput.addEventListener('keyup', function(e) {
+          if (e.key === 'Enter' && searchInput.value.trim()) {
+            window.location.href = 'index.html?search=' + encodeURIComponent(searchInput.value.trim());
+          }
+        });
+      }
+    })();
+  </script>
+
+  <!-- Schema for About page -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About Fine Lines Architecture",
+    "description": "Mission, team, and editorial policy of Fine Lines Architecture.",
+    "url": "https://finelinesarchitecture.com/about.html",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Fine Lines Architecture",
+      "description": "Independent editorial publication for interior design and architecture.",
+      "foundingDate": "2021",
+      "founders": [
+        { "@type": "Person", "name": "Elena Marchetti" }
+      ]
+    }
+  }
+  </script>
+</body>
+</html>

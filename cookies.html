@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookies Policy — Fine Lines Architecture</title>
+  <meta name="description" content="Learn how Fine Lines Architecture uses cookies and similar technologies on our website. Understand your choices and control your preferences.">
+  <meta name="author" content="Fine Lines Editorial Team">
+  <link rel="canonical" href="https://finelinesarchitecture.com/cookies.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Cookies Policy — Fine Lines Architecture">
+  <meta property="og:description" content="How we use cookies and similar technologies at Fine Lines Architecture.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://finelinesarchitecture.com/cookies.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&h=630&fit=crop">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+  <style>
+    /* ---------- RESET & BASE ---------- */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background-color: #fbfaf8;
+      color: #1e1e1e;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+    img { max-width: 100%; display: block; height: auto; }
+    a { color: inherit; text-decoration: none; }
+    button, input, textarea, select { font-family: inherit; }
+    .container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
+
+    /* ---------- TYPOGRAPHY ---------- */
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 600;
+      line-height: 1.2;
+      color: #1e1e1e;
+    }
+    h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); letter-spacing: -0.02em; }
+    h2 { font-size: clamp(1.6rem, 3.5vw, 2.2rem); letter-spacing: -0.01em; margin-bottom: 1.2rem; }
+    h3 { font-size: 1.3rem; margin-bottom: 0.75rem; }
+    p { margin-bottom: 1.2rem; }
+    .meta {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #6b6b6b;
+      font-weight: 500;
+    }
+
+    /* ---------- HEADER ---------- */
+    .blog-header {
+      border-bottom: 1px solid #e0dbd4;
+      background: #fbfaf8;
+      padding: 18px 0;
+    }
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo-mark {
+      width: 36px;
+      height: 36px;
+      background: #1e1e1e;
+      color: #fbfaf8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 1;
+      border-radius: 2px;
+      letter-spacing: -0.02em;
+    }
+    .logo-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: #1e1e1e;
+    }
+    .logo-text span {
+      font-weight: 400;
+      font-style: italic;
+      color: #7a6a5a;
+    }
+    .main-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 18px;
+      align-items: center;
+      font-size: 0.9rem;
+      font-weight: 500;
+      list-style: none;
+    }
+    .main-nav a {
+      color: #3d3d3d;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 2px;
+      transition: border-color 0.15s;
+    }
+    .main-nav a:hover,
+    .main-nav a.active {
+      border-bottom-color: #b09b8b;
+      color: #1e1e1e;
+    }
+    .search-wrapper {
+      display: flex;
+      align-items: center;
+      background: #f0ede9;
+      border-radius: 30px;
+      padding: 4px 6px 4px 14px;
+      border: 1px solid #e0dbd4;
+    }
+    .search-wrapper input {
+      border: none;
+      background: transparent;
+      padding: 6px 4px;
+      font-size: 0.9rem;
+      outline: none;
+      width: 180px;
+    }
+    .search-wrapper button {
+      background: #1e1e1e;
+      border: none;
+      color: #fbfaf8;
+      width: 34px;
+      height: 34px;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s;
+    }
+    .search-wrapper button:hover { background: #3d3d3d; }
+
+    /* ---------- CATEGORY BAR ---------- */
+    .category-bar {
+      border-bottom: 1px solid #e0dbd4;
+      padding: 14px 0;
+      background: #fbfaf8;
+      overflow-x: auto;
+      white-space: nowrap;
+      scrollbar-width: thin;
+    }
+    .category-bar .container {
+      display: flex;
+      gap: 8px 20px;
+      flex-wrap: wrap;
+    }
+    .category-bar a {
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #5a5a5a;
+      letter-spacing: 0.02em;
+      padding: 4px 0;
+      border-bottom: 2px solid transparent;
+      transition: all 0.1s;
+    }
+    .category-bar a:hover,
+    .category-bar a.active-cat {
+      color: #1e1e1e;
+      border-bottom-color: #b09b8b;
+    }
+
+    /* ---------- COOKIES PAGE CONTENT ---------- */
+    .cookies-hero {
+      padding: 50px 0 20px;
+      text-align: center;
+      border-bottom: 1px solid #e0dbd4;
+      margin-bottom: 40px;
+    }
+    .cookies-hero h1 {
+      font-size: clamp(2rem, 4.5vw, 3rem);
+      margin-bottom: 12px;
+    }
+    .cookies-hero p {
+      font-size: 1.1rem;
+      color: #5a5a5a;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .cookies-hero .last-updated {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #8a8a8a;
+      margin-top: 18px;
+      font-weight: 500;
+    }
+
+    .cookies-body {
+      max-width: 820px;
+      margin: 0 auto 60px;
+    }
+
+    .cookies-card {
+      background: #ffffff;
+      border: 1px solid #ece8e2;
+      border-radius: 8px;
+      padding: 40px 44px;
+      margin-bottom: 32px;
+    }
+
+    .cookies-card h2 {
+      font-size: 1.7rem;
+      margin-bottom: 18px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #ece8e2;
+    }
+
+    .cookies-card h3 {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-top: 28px;
+      margin-bottom: 10px;
+      color: #2c2c2c;
+    }
+
+    .cookies-card p {
+      font-size: 0.98rem;
+      color: #3d3d3d;
+      line-height: 1.75;
+    }
+
+    .cookies-card ul, .cookies-card ol {
+      margin: 12px 0 20px 24px;
+      font-size: 0.98rem;
+      color: #3d3d3d;
+      line-height: 1.75;
+    }
+    .cookies-card li {
+      margin-bottom: 6px;
+    }
+
+    .cookies-card a {
+      color: #7a6a5a;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+      font-weight: 500;
+    }
+    .cookies-card a:hover {
+      border-bottom-color: #7a6a5a;
+    }
+
+    .highlight-box {
+      background: #f5f2ee;
+      border-left: 4px solid #b09b8b;
+      padding: 20px 24px;
+      border-radius: 0 6px 6px 0;
+      margin: 24px 0;
+    }
+    .highlight-box p {
+      margin-bottom: 0;
+      font-size: 0.95rem;
+      color: #3d3d3d;
+    }
+
+    .cookie-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0 24px;
+      font-size: 0.9rem;
+    }
+    .cookie-table th {
+      background: #f5f2ee;
+      text-align: left;
+      padding: 12px 16px;
+      font-weight: 600;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      color: #5a5a5a;
+      border-bottom: 2px solid #e0dbd4;
+    }
+    .cookie-table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid #ece8e2;
+      vertical-align: top;
+      line-height: 1.6;
+      color: #3d3d3d;
+    }
+    .cookie-table tr:last-child td {
+      border-bottom: none;
+    }
+    .cookie-table .cookie-name {
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 0.82rem;
+      background: #f0ede9;
+      padding: 2px 6px;
+      border-radius: 3px;
+      display: inline-block;
+      white-space: nowrap;
+    }
+
+    .cookies-contact {
+      background: #1e1e1e;
+      color: #cbc6be;
+      border-radius: 8px;
+      padding: 36px 40px;
+      margin-top: 32px;
+    }
+    .cookies-contact h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      color: #fbfaf8;
+      margin-bottom: 12px;
+    }
+    .cookies-contact p {
+      color: #b5aea4;
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+    }
+    .cookies-contact a {
+      color: #d9cfc4;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+      font-weight: 500;
+    }
+    .cookies-contact a:hover {
+      border-bottom-color: #d9cfc4;
+      color: #fbfaf8;
+    }
+
+    /* ---------- FOOTER ---------- */
+    .blog-footer {
+      background: #1e1e1e;
+      color: #cbc6be;
+      padding: 48px 0 24px;
+      margin-top: 40px;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px;
+    }
+    .footer-grid h4 {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #a89f94;
+      margin-bottom: 16px;
+      font-weight: 600;
+    }
+    .footer-grid p, .footer-grid li {
+      font-size: 0.85rem;
+      line-height: 1.8;
+      color: #b5aea4;
+    }
+    .footer-grid ul { list-style: none; }
+    .footer-grid a:hover { color: #fbfaf8; }
+    .footer-bottom {
+      border-top: 1px solid #3a3a3a;
+      margin-top: 40px;
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 0.8rem;
+      color: #8a8a8a;
+    }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 1024px) {
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+      }
+      .cookie-table {
+        font-size: 0.85rem;
+      }
+      .cookie-table th,
+      .cookie-table td {
+        padding: 10px 12px;
+      }
+    }
+    @media (max-width: 768px) {
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .main-nav {
+        font-size: 0.8rem;
+        gap: 4px 14px;
+      }
+      .search-wrapper input { width: 130px; }
+      .cookies-card {
+        padding: 28px 22px;
+      }
+      .cookies-body {
+        max-width: 100%;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+      .cookies-contact {
+        padding: 28px 22px;
+      }
+      .cookie-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+      .cookie-table th,
+      .cookie-table td {
+        white-space: normal;
+        min-width: 120px;
+      }
+    }
+    @media (max-width: 480px) {
+      .container { padding: 0 16px; }
+      .category-bar .container { gap: 6px 14px; }
+      .logo-text { font-size: 1.3rem; }
+      .cookies-card h2 { font-size: 1.4rem; }
+      .cookies-hero h1 { font-size: 1.8rem; }
+      .cookie-table {
+        font-size: 0.8rem;
+      }
+      .cookie-table th,
+      .cookie-table td {
+        padding: 8px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="blog-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Fine Lines Architecture home">
+        <div class="logo-mark" aria-hidden="true">F</div>
+        <div class="logo-text">Fine Lines <span>Architecture</span></div>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul class="main-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="terms.html">Terms Of Privacy</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="cookies.html" class="active">Cookies Policy</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+          <li><a href="categories.html">Categories</a></li>
+        </ul>
+      </nav>
+      <div class="search-wrapper">
+        <input type="text" id="searchInput" placeholder="Search articles…" aria-label="Search articles">
+        <button id="searchBtn" aria-label="Search">⌕</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- CATEGORY BAR -->
+  <div class="category-bar">
+    <div class="container">
+      <a href="index.html">All</a>
+      <a href="index.html">Interior Design</a>
+      <a href="index.html">Architecture</a>
+      <a href="index.html">Home Design</a>
+      <a href="index.html">Materials</a>
+      <a href="index.html">Space Planning</a>
+      <a href="index.html">Lighting</a>
+      <a href="index.html">Furniture</a>
+      <a href="index.html">Modern Homes</a>
+      <a href="index.html">Sustainable Design</a>
+    </div>
+  </div>
+
+  <!-- COOKIES PAGE CONTENT -->
+  <div class="container">
+    <!-- HERO -->
+    <div class="cookies-hero">
+      <h1>Cookies Policy</h1>
+      <p>This policy explains how Fine Lines Architecture uses cookies and similar technologies on our website, and how you can control them.</p>
+      <div class="last-updated">Last updated: 1 January 2025</div>
+    </div>
+
+    <!-- COOKIES BODY -->
+    <div class="cookies-body">
+      <div class="cookies-card">
+        <h2>1. What Are Cookies?</h2>
+        <p>Cookies are small text files that are placed on your computer, tablet, or mobile device when you visit a website. They are widely used to make websites work more efficiently, to provide a better browsing experience, and to give site owners useful information about how their site is being used.</p>
+        <p>Cookies do not typically contain any information that personally identifies you, but personal information that we store about you may be linked to the information stored in and obtained from cookies.</p>
+        <p>We also use "similar technologies" such as local storage, pixels, and tags, which function similarly to cookies. In this policy, we refer to all of these collectively as "cookies".</p>
+      </div>
+
+      <div class="cookies-card">
+        <h2>2. How We Use Cookies</h2>
+        <p>We use cookies for the following purposes:</p>
+        <ul>
+          <li><strong>Essential cookies:</strong> These are necessary for the website to function properly. They enable core features such as page navigation, security, and access to protected areas. The website cannot function properly without these cookies.</li>
+          <li><strong>Analytics cookies:</strong> These allow us to recognise and count the number of visitors to our site, and to see how visitors move around the site. This helps us improve the way our website works — for example, by ensuring that users find what they are looking for easily.</li>
+          <li><strong>Preference cookies:</strong> These remember choices you make (such as your language or region) and provide enhanced, more personal features. They may also be used to remember changes you have made to text size, fonts, and other parts of web pages that you can customise.</li>
+          <li><strong>Marketing cookies:</strong> We do not currently use marketing or advertising cookies on this website. Should this change, we will update this policy and seek your consent where required.</li>
+        </ul>
+
+        <div class="highlight-box">
+          <p><strong>We do not use cookies to serve you behavioural advertisements, and we do not sell cookie data to third parties.</strong></p>
+        </div>
+      </div>
+
+      <div class="cookies-card">
+        <h2>3. Cookies We Use</h2>
+        <p>Below is a detailed list of the cookies we currently use on our website:</p>
+
+        <table class="cookie-table">
+          <thead>
+            <tr>
+              <th>Cookie Name</th>
+              <th>Type</th>
+              <th>Purpose</th>
+              <th>Duration</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="cookie-name">fla_session</span></td>
+              <td>Essential</td>
+              <td>Maintains your session state across page requests.</td>
+              <td>Session</td>
+            </tr>
+            <tr>
+              <td><span class="cookie-name">fla_consent</span></td>
+              <td>Essential</td>
+              <td>Stores your cookie consent preferences.</td>
+              <td>12 months</td>
+            </tr>
+            <tr>
+              <td><span class="cookie-name">fla_prefs</span></td>
+              <td>Preference</td>
+              <td>Remembers your display preferences (e.g. font size).</td>
+              <td>6 months</td>
+            </tr>
+            <tr>
+              <td><span class="cookie-name">_ga</span></td>
+              <td>Analytics</td>
+              <td>Used by Google Analytics to distinguish unique users.</td>
+              <td>2 years</td>
+            </tr>
+            <tr>
+              <td><span class="cookie-name">_ga_*</span></td>
+              <td>Analytics</td>
+              <td>Used by Google Analytics to maintain session state.</td>
+              <td>2 years</td>
+            </tr>
+            <tr>
+              <td><span class="cookie-name">_gid</span></td>
+              <td>Analytics</td>
+              <td>Used by Google Analytics to distinguish users.</td>
+              <td>24 hours</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>Please note that third-party cookies (such as those from Google Analytics) are set by external providers. We do not control the operation of these cookies. For more information, please refer to the relevant third party's privacy policy.</p>
+      </div>
+
+      <div class="cookies-card">
+        <h2>4. Third-Party Cookies</h2>
+        <p>Some cookies on our site are set by third-party services that appear on our pages. We use the following third-party services that may set cookies:</p>
+        <ul>
+          <li><strong>Google Analytics:</strong> We use Google Analytics to help us understand how visitors engage with our website. Google Analytics collects information anonymously and reports website trends without identifying individual visitors. For more information, see <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a>.</li>
+          <li><strong>Font providers:</strong> We use Google Fonts to display typography. These services may collect your IP address as part of serving font files. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a> for details.</li>
+          <li><strong>Embedded content:</strong> Articles on our site may include embedded content (e.g. videos, images, articles) from other websites. Embedded content from other websites behaves in exactly the same way as if you visited the other website directly. These websites may set their own cookies.</li>
+        </ul>
+      </div>
+
+      <div class="cookies-card">
+        <h2>5. Your Cookie Choices</h2>
+        <p>When you first visit our website, you will be shown a cookie banner where you can accept or reject non-essential cookies. You can change your preferences at any time by clicking the "Cookie Settings" link in the footer of any page.</p>
+
+        <h3>Browser controls</h3>
+        <p>Most web browsers allow you to control cookies through their settings. You can set your browser to:</p>
+        <ul>
+          <li>Block all cookies</li>
+          <li>Block third-party cookies only</li>
+          <li>Delete cookies when you close your browser</li>
+          <li>Browse in private/incognito mode</li>
+        </ul>
+        <p>Please note that if you block or delete cookies, some parts of our website may not function properly. For example, you may not be able to stay logged in or your display preferences may not be saved.</p>
+        <p>To find out how to manage cookies on your specific browser, visit the help pages of your browser provider:</p>
+        <ul>
+          <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener noreferrer">Google Chrome</a></li>
+          <li><a href="https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer" target="_blank" rel="noopener noreferrer">Mozilla Firefox</a></li>
+          <li><a href="https://support.apple.com/guide/safari/manage-cookies-sfri11471/mac" target="_blank" rel="noopener noreferrer">Apple Safari</a></li>
+          <li><a href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener noreferrer">Microsoft Edge</a></li>
+        </ul>
+
+        <h3>Opting out of analytics</h3>
+        <p>You can opt out of Google Analytics across all websites by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">Google Analytics Opt-out Browser Add-on</a>.</p>
+      </div>
+
+      <div class="cookies-card">
+        <h2>6. Do Not Track Signals</h2>
+        <p>Some browsers include a "Do Not Track" (DNT) feature that signals to websites that you do not want to be tracked. Our website does not currently respond to DNT signals. However, you can control tracking through the cookie consent banner and your browser settings as described above.</p>
+      </div>
+
+      <div class="cookies-card">
+        <h2>7. Changes to This Policy</h2>
+        <p>We may update this Cookies Policy from time to time to reflect changes in technology, legislation, or our data practices. Any changes will be posted on this page with an updated "Last updated" date.</p>
+        <p>Where changes are material, we will provide a more prominent notice (such as a banner on our homepage) and, where required by law, seek your renewed consent.</p>
+        <p>We encourage you to review this page periodically to stay informed about how we use cookies.</p>
+      </div>
+
+      <div class="cookies-card">
+        <h2>8. More Information</h2>
+        <p>For more information about cookies and how to manage them, you may find the following resources helpful:</p>
+        <ul>
+          <li><a href="https://www.allaboutcookies.org" target="_blank" rel="noopener noreferrer">All About Cookies</a> — comprehensive guidance on cookies and online privacy.</li>
+          <li><a href="https://ico.org.uk/for-the-public/online/cookies/" target="_blank" rel="noopener noreferrer">UK Information Commissioner's Office (ICO)</a> — official guidance on cookies and GDPR.</li>
+          <li><a href="https://www.youronlinechoices.com" target="_blank" rel="noopener noreferrer">Your Online Choices</a> — EU-based tool for managing advertising preferences.</li>
+        </ul>
+        <p>For details about how we handle personal data more broadly, please see our <a href="privacy.html">Privacy Policy</a>.</p>
+      </div>
+
+      <!-- CONTACT BLOCK -->
+      <div class="cookies-contact">
+        <h3>Questions about cookies?</h3>
+        <p>If you have any questions or concerns about our use of cookies or this Cookies Policy, please contact us:</p>
+        <p><strong>Email:</strong> <a href="mailto:privacy@finelinesarchitecture.com">privacy@finelinesarchitecture.com</a></p>
+        <p><strong>Post:</strong> Fine Lines Architecture, 47 Design District, London EC2A 4NE, United Kingdom</p>
+        <p style="margin-top:18px; font-size:0.85rem; color:#8a8a8a;">We aim to respond to all cookie-related inquiries within 5 business days.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="blog-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Fine Lines Architecture</h4>
+          <p>An independent editorial publication about interior design, architecture, and the built environment. We publish original, in-depth content for professionals and enthusiasts.</p>
+        </div>
+        <div>
+          <h4>Sections</h4>
+          <ul>
+            <li><a href="index.html">Interior Design</a></li>
+            <li><a href="index.html">Architecture</a></li>
+            <li><a href="index.html">Home Design</a></li>
+            <li><a href="index.html">Materials</a></li>
+            <li><a href="index.html">Lighting</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>About</h4>
+          <ul>
+            <li><a href="about.html">Our Team</a></li>
+            <li><a href="about.html">Editorial Policy</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Advertise</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+            <li><a href="cookies.html">Cookie Policy</a></li>
+            <li><a href="#">Accessibility</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Fine Lines Architecture. All rights reserved.</span>
+        <span>Made with care for the design community.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT (basic search demo) -->
+  <script>
+    (function() {
+      const searchInput = document.getElementById('searchInput');
+      const searchBtn = document.getElementById('searchBtn');
+      searchBtn.addEventListener('click', function() {
+        if (searchInput.value.trim()) {
+          alert('Search: "' + searchInput.value.trim() + '"\n\nThis is a demo. In production, this would filter or navigate to search results.');
+        }
+      });
+      searchInput.addEventListener('keyup', function(e) {
+        if (e.key === 'Enter') {
+          searchBtn.click();
+        }
+      });
+    })();
+  </script>
+
+  <!-- Schema markup for CookiesPolicy -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Cookies Policy — Fine Lines Architecture",
+    "description": "Learn how Fine Lines Architecture uses cookies and similar technologies on our website.",
+    "url": "https://finelinesarchitecture.com/cookies.html",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Fine Lines Architecture",
+      "email": "privacy@finelinesarchitecture.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "47 Design District",
+        "addressLocality": "London",
+        "postalCode": "EC2A 4NE",
+        "addressCountry": "GB"
+      }
+    }
+  }
+  </script>
+</body>
+</html>
